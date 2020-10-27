@@ -1,0 +1,49 @@
+/* Add CSS here */
+* {
+  box-sizing: border-box;
+  color: #555;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.display {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background: none;
+  transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+  transform: translate3d(0, 0, -200px);
+}
+
+.startStop {
+  border: 0.5rem solid rgba(0, 200, 100, 0.5);
+  border-radius: 0.25rem;
+}
+
+.reset {
+  border: 0.5rem solid rgba(255, 100, 50, 0.5);
+  border-radius: 0.25rem;
+}
